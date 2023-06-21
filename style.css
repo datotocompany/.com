@@ -1,0 +1,627 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+nav .nav {
+  overflow: hidden;
+}
+nav .nav .item {
+  padding: 8px 16px;
+  background-color: black;
+  width: 24.9999%;
+  float: left;
+}
+nav .nav .item .a {
+  display: block;
+  text-align: center;
+}
+nav .nav a {
+  padding: 8px 16px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+nav .nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.header {
+  position: relative;
+}
+.header .header-img img {
+  width: 100%;
+}
+.header .header-text {
+  position: absolute;
+  top: 300px;
+  left: 320px;
+  background-color: rgba(14, 13, 13, 0.5);
+  color: white;
+}
+.header .header-text h2 {
+  font-size: 80px;
+}
+.header .header-text p {
+  font-size: 22px;
+  text-align: center;
+}
+.header .social-media-icon {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
+.header .social-media-icon a {
+  font-size: 60px;
+  margin-left: 10px;
+  color: black;
+}
+.header .social-media-icon a i:hover {
+  color: #444444;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+}
+.main .about-menu {
+  line-height: 1.6;
+}
+.main .about-menu h3 {
+  width: 260px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+.main .about-menu .about-menu-dialogue {
+  padding: 20px;
+  background-color: rgb(240, 225, 225);
+  margin-bottom: 50px;
+}
+.main .about-menu .about-menu-dialogue .margin {
+  width: 10px;
+  height: 80px;
+  background-color: brown;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.main .about-menu .about-img {
+  margin-bottom: 30px;
+}
+.main .about-menu .about-img img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.main .about-menu .about-img p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.main .about-menu .about-img p span {
+  font-weight: bold;
+}
+
+h3 {
+  width: 120px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.main-2 .menu-nav {
+  width: 55%;
+  margin: auto;
+  margin-bottom: 50px;
+  height: 400px;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+.main-2 .menu-nav .menu-content .menu-nav-2 {
+  padding: 5px;
+}
+.main-2 .menu-nav .menu-content .menu-nav-2 a {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.main-2 .menu-nav .menu-content .menu-nav-2 a:hover {
+  background-color: rgb(53, 51, 51);
+}
+.main-2 .menu-nav .menu-content .menu-nav-2 .aa {
+  display: block;
+  float: left;
+  width: 49%;
+}
+.main-2 .menu-nav .menu-content .our-products {
+  width: 100%;
+  padding: 15px;
+}
+.main-2 .menu-nav .menu-content .our-products .our-products-img img {
+  width: 320px;
+}
+.main-2 .menu-nav .menu-content .contact-us {
+  width: 100%;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 {
+  position: relative;
+  display: block;
+  float: left;
+  width: 45%;
+  margin-left: 15px;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 h4 {
+  margin-top: 8px;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 .p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 p {
+  font-size: 15px;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp {
+  margin-top: 8px;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp a {
+  font-size: 28px;
+  background: white;
+  border-radius: 50%;
+}
+.main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+.main-3 {
+  width: 60%;
+  margin: auto;
+}
+.main-3 img {
+  width: 370px;
+}
+
+h3 {
+  width: 160px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.address {
+  width: 60%;
+  margin: auto;
+}
+.address .address-location {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  background-color: rgba(14, 13, 13, 0.2);
+}
+.address .address-location ul {
+  line-height: 1.3;
+  font-size: 18px;
+}
+.address .address-location ul .li-p p {
+  display: block;
+  text-align: left;
+  float: left;
+  margin-right: 5px;
+  font-size: 18px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 100%;
+}
+.address .address-location ul li .ul {
+  display: block;
+}
+.address .address-location ul li .li-blue {
+  color: rgb(10, 129, 177);
+  font-weight: bold;
+}
+.address .address-location ul li li a {
+  color: black;
+  text-decoration: underline;
+}
+.address .address-location .address-details-2 {
+  margin-top: 10px;
+}
+
+.w3-container {
+  width: 60%;
+  margin: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.footer .social-media-icon {
+  width: 50%;
+  margin: auto;
+}
+.footer .social-media-icon p {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.footer .social-media-icon a {
+  font-size: 35px;
+  text-align: center;
+}
+.footer .social-media-icon .a1::after {
+  content: "Follow our Page";
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  margin-right: 10px;
+}
+.footer .social-media-icon .a2::after {
+  content: "Join our Group";
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .header .header-text {
+    top: 180px;
+    left: 180px;
+  }
+  .header .header-text h2 {
+    font-size: 60px;
+  }
+  .header .header-text p {
+    font-size: 18px;
+  }
+  .header .social-media-icon {
+    bottom: 50px;
+    left: 100px;
+  }
+  .header .social-media-icon a {
+    font-size: 35px;
+  }
+  .main-2 .menu-nav {
+    height: 720px;
+  }
+  .main-2 .menu-nav .menu-content .menu-nav-2 .aa {
+    width: 48%;
+  }
+  .main-2 .menu-nav .menu-content .our-products .our-products-img img {
+    width: 380px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us {
+    width: 100%;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 {
+    position: relative;
+    display: block;
+    float: none;
+    width: 60%;
+    margin-left: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 h4 {
+    margin-top: 8px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 p {
+    font-size: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp {
+    margin-top: 8px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp a {
+    font-size: 28px;
+    background: white;
+    border-radius: 50%;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-01 {
+    bottom: 0px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-02 {
+    bottom: 8px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-03 {
+    bottom: -25px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-04 {
+    bottom: -50px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-2 {
+    margin-top: 20px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-4 {
+    margin-top: 40px;
+  }
+  .main-3 {
+    width: 60%;
+    margin: auto;
+  }
+  .main-3 img {
+    width: 450px;
+  }
+  .address {
+    width: 60%;
+    margin: auto;
+  }
+  .address .address-location {
+    display: block;
+    width: 100%;
+    float: none;
+    padding: 15px;
+    background-color: rgba(14, 13, 13, 0.2);
+  }
+  .address .address-location h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header .header-text {
+    top: 300px;
+    left: 370px;
+  }
+  .header .header-text h2 {
+    font-size: 60px;
+  }
+  .header .header-text p {
+    font-size: 18px;
+  }
+  .header .social-media-icon {
+    bottom: 50px;
+    left: 100px;
+  }
+  .header .social-media-icon a {
+    font-size: 35px;
+  }
+  .main-2 .menu-nav {
+    height: 500px;
+  }
+  .main-2 .menu-nav .menu-content .menu-nav-2 .aa {
+    width: 49%;
+  }
+  .main-2 .menu-nav .menu-content .our-products .our-products-img img {
+    width: 320px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us {
+    width: 100%;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 {
+    position: relative;
+    display: block;
+    float: left;
+    width: 45%;
+    margin-left: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp {
+    margin-top: 8px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp a {
+    font-size: 28px;
+    background: white;
+    border-radius: 50%;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+  }
+  .main-3 img {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header .header-text {
+    top: 300px;
+    left: 300px;
+  }
+  .header .header-text h2 {
+    font-size: 60px;
+  }
+  .header .header-text p {
+    font-size: 18px;
+  }
+  .header .social-media-icon {
+    bottom: 50px;
+    left: 100px;
+  }
+  .header .social-media-icon a {
+    font-size: 35px;
+  }
+  .main-2 .menu-nav {
+    width: 60%;
+    height: 720px;
+  }
+  .main-2 .menu-nav .menu-content .menu-nav-2 .aa {
+    width: 48%;
+  }
+  .main-2 .menu-nav .menu-content .our-products .our-products-img img {
+    width: 380px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us {
+    width: 100%;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 {
+    position: relative;
+    display: block;
+    float: left;
+    width: 70%;
+    margin-left: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 h4 {
+    margin-top: 8px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 p {
+    font-size: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp {
+    margin-top: 8px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .pp a {
+    font-size: 28px;
+    background: white;
+    border-radius: 50%;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-01 {
+    bottom: 3px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-02 {
+    bottom: 8px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-03 {
+    bottom: 5px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-04 {
+    bottom: 10px;
+    left: 7px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-2 {
+    margin-top: 20px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-4 {
+    margin-top: 10px;
+  }
+  .main-3 img {
+    width: 470px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .header .header-text {
+    top: 100px;
+    left: 130px;
+  }
+  .header .header-text h2 {
+    font-size: 30px;
+  }
+  .header .header-text p {
+    font-size: 14px;
+  }
+  .header .social-media-icon {
+    bottom: 40px;
+    left: 50px;
+  }
+  .header .social-media-icon a {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .main .about-menu .about-img p {
+    font-size: 14px;
+  }
+  .main-2 .menu-nav {
+    width: 70%;
+    height: 670px;
+  }
+  .main-2 .menu-nav .menu-content .menu-nav-2 .aa {
+    width: 48%;
+  }
+  .main-2 .menu-nav .menu-content .our-products .our-products-img img {
+    width: 300px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon {
+    bottom: 55px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-01 {
+    bottom: 3px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-02 {
+    bottom: 8px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-03 {
+    bottom: 5px;
+    left: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-04 {
+    bottom: 10px;
+    left: 7px;
+  }
+  .main-3 img {
+    width: 320px;
+  }
+  .address {
+    width: 80%;
+    margin: auto;
+  }
+  .address .address-location h2 {
+    font-size: 18px;
+  }
+  .address .address-location ul {
+    font-size: 14px;
+  }
+  .address .address-location ul .li-p p {
+    font-size: 16px;
+  }
+  .footer .social-media-icon {
+    width: 80%;
+  }
+  .footer .social-media-icon .a1::after {
+    font-size: 14px;
+  }
+  .footer .social-media-icon .a2::after {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */
