@@ -46,6 +46,7 @@ nav .nav a:hover {
   left: 320px;
   background-color: rgba(14, 13, 13, 0.5);
   color: white;
+  animation: text 2s 1;
 }
 .header .header-text h2 {
   font-size: 80px;
@@ -58,6 +59,7 @@ nav .nav a:hover {
   position: absolute;
   bottom: 50px;
   left: 100px;
+  animation: icon 2s 1;
 }
 .header .social-media-icon a {
   font-size: 60px;
@@ -88,6 +90,9 @@ nav .nav a:hover {
   padding: 20px;
   background-color: rgb(240, 225, 225);
   margin-bottom: 50px;
+}
+.main .about-menu .about-menu-dialogue .p-bold {
+  font-weight: bold;
 }
 .main .about-menu .about-menu-dialogue .margin {
   width: 10px;
@@ -292,6 +297,20 @@ h3 {
   color: white;
 }
 
+@keyframes text {
+  0% {
+    color: black;
+    margin-top: -80px;
+    transition: 0.1s all ease-in-out;
+  }
+}
+@keyframes icon {
+  0% {
+    color: black;
+    margin-left: -80px;
+    transition: 0.1s all ease-in-out;
+  }
+}
 @media only screen and (min-width: 768px) {
   .header .header-text {
     top: 180px;
@@ -553,14 +572,14 @@ h3 {
     left: 60px;
   }
   .header .header-text h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .header .header-text p {
     font-size: 14px;
   }
   .header .social-media-icon {
-    bottom: 40px;
-    left: 50px;
+    bottom: 20px;
+    left: 40px;
   }
   .header .social-media-icon a {
     font-size: 25px;
@@ -569,18 +588,29 @@ h3 {
   .main {
     width: 80%;
   }
+  .main .about-menu p {
+    font-size: 12px;
+    text-align: justify;
+  }
   .main .about-menu .about-img p {
     font-size: 14px;
   }
+  .main .about-menu .about-menu-dialogue .margin {
+    height: 125px;
+  }
   .main-2 .menu-nav {
     width: 80%;
-    height: 670px;
+    height: 620px;
   }
   .main-2 .menu-nav .menu-content .menu-nav-2 .aa {
     width: 45%;
   }
   .main-2 .menu-nav .menu-content .menu-nav-2 .aa div {
     font-size: 14px;
+  }
+  .main-2 .menu-nav .menu-content .our-products p {
+    font-size: 12px;
+    text-align: justify;
   }
   .main-2 .menu-nav .menu-content .our-products .our-products-img img {
     width: 230px;
@@ -594,6 +624,12 @@ h3 {
   }
   .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon a {
     font-size: 15px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 p .p1 {
+    font-size: 10px;
+  }
+  .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .p {
+    font-size: 10px;
   }
   .main-2 .menu-nav .menu-content .contact-us .contact-us-1 .fb-icon-01 {
     bottom: 3px;
@@ -645,4 +681,4 @@ h3 {
   .footer .social-media-icon .a2::after {
     font-size: 14px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
